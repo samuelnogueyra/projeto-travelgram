@@ -1,0 +1,50 @@
+header{
+    padding-block: 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#profile > div{
+    max-width: 384px;
+}
+
+.container div:first-child img{
+    width: 176px;
+    height: 176x;
+}
+
+#profile h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#profile p, span{
+    font: var(--text-md);
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 16px;
+    width: 280px;
+}
+
+.info li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
